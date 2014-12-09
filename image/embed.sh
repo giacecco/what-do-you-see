@@ -1,0 +1,1 @@
+java -Xms4096M -Xmx4096M -jar openstego-0.6.1/lib/openstego.jar embed -a RandomLSB -mf households_by_postcode_sector_by_no_of_deprivation_dimensions.csv -cf banner.png -sf out.png
