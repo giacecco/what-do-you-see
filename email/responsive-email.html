@@ -7,14 +7,17 @@
         <style type="text/css">
             /* regular CSS styles go here */
             body{
+                word-wrap: break-word; 
+                -webkit-nbsp-mode: space; 
+                -webkit-line-break: after-white-space;
                 background-color: white;
                 font-family: Exo, Helvetica, Arial;
                 font-size: 16px;
             }
-            a:link { color: #ecd078; }
-            a:visited { color: #ecd078; }
-            a:hover { color: #ecd078; }
-            a:active { color: #ecd078; }
+            body a:link { color: #ecd078; }
+            body a:visited { color: #ecd078; }
+            body a:hover { color: #ecd078; }
+            body a:active { color: #ecd078; }
             #red_canvas {
                 background-color: #c02942;
                 color: white;
@@ -36,8 +39,22 @@
             #signature {
                 width: 40%;
             }
+            #footer {
+                font-family: Exo; 
+                font-size: 6pt; 
+                color: rgb(187, 187, 187);
+            }
+            #footer a:link { color: rgb(187, 187, 187); }
+            #footer a:visited { color: rgb(187, 187, 187); }
+            #footer a:hover { color: rgb(187, 187, 187); }
+            #footer a:active { color: rgb(187, 187, 187); }
             /* mobile-specific CSS styles overrides go here */
             @media only screen and (max-device-width: 480px) {
+                #main_body {
+                    margin-left: auto; 
+                    margin-right: auto;
+                    width: 90%;
+                }
                 #signature {
                     width: 70%;
                 }
@@ -45,7 +62,7 @@
         </style>
         <title></title>
     </head>
-    <body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+    <body>
         <div id="red_canvas">
             <div id="main_body">
                 <br />
@@ -80,7 +97,7 @@
                 <br />
             </div>
         </div>
-        <p style="font-family: Exo; font-size: 6pt; color: rgb(187, 187, 187);">This message is not confidential, really. If you are not the intended recipient, merry Christmas to you, too. Spoiler alert: the data <a href="https://github.com/Digital-Contraptions-Imaginarium/the-gift-of-data-2">hidden using steganography</a> in the big picture at the top is licensed under OGL. Everything else is copyright © 2014 Digital Contraptions Imaginarium Ltd., and I am sure I'll forget to update this footer in January. All rights reserved. Digital Contraptions Imaginarium Limited is a company registered in England and Wales with company number 8637230. Registered Office: Unit 11, Fonthill Road, Hove, BN3 6HA.
+        <p id="footer">This message is not confidential, really. If you are not the intended recipient, merry Christmas to you, too. Spoiler alert: the data <a href="https://github.com/Digital-Contraptions-Imaginarium/the-gift-of-data-2">hidden using steganography</a> in the big picture at the top is licensed under OGL. Everything else is copyright © 2014 Digital Contraptions Imaginarium Ltd., and I am sure I'll forget to update this footer in January. All rights reserved. Digital Contraptions Imaginarium Limited is a company registered in England and Wales with company number 8637230. Registered Office: Unit 11, Fonthill Road, Hove, BN3 6HA.
         </p>
     </body>
 </html>
