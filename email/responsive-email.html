@@ -5,39 +5,6 @@
     <head>
         <link href='http://fonts.googleapis.com/css?family=Exo|Slackey' rel='stylesheet' type='text/css'>
         <style type="text/css">
-            /* mobile-specific CSS styles go here */
-            @media only screen and (max-device-width: 480px) {
-                body{
-                    background-color: white;
-                    font-family: Exo, Helvetica, Arial;
-                    font-size: 16px;
-                }
-                a:link { color: #ecd078; }
-                a:visited { color: #ecd078; }
-                a:hover { color: #ecd078; }
-                a:active { color: #ecd078; }
-                #red_canvas {
-                    background-color: #c02942;
-                    color: white;
-                    border: 0px solid;
-                    border-radius: 10px;
-                }
-                #main_body{
-                    margin-left: auto; 
-                    margin-right: auto;
-                    width: 400px;
-                }
-                #cover_image{
-                    margin-left: auto; 
-                    margin-right: auto;
-                    width: 100%;     
-                    border: 0px solid;
-                    border-radius: 10px;
-                }
-                #signature {
-                    width: 100%;
-                }
-            }
             /* regular CSS styles go here */
             body{
                 background-color: white;
@@ -69,6 +36,12 @@
             #signature {
                 width: 40%;
             }
+            /* mobile-specific CSS styles overrides go here */
+            @media only screen and (max-device-width: 480px) {
+                #signature {
+                    width: 70%;
+                }
+            }
         </style>
         <title></title>
     </head>
@@ -80,8 +53,8 @@
                 <p>Our governments spend millions of pounds every year harvesting all sort of intelligence. Conversely, there is Open Data that hides in broad daylight, effortlessly.</p>
                 <p>If you're happy with what you see, don't look any further, and have a great Christmas.</p>
                 <p>If you're not, may 2015 be the year when you find the data you're looking for... starting with <i>this email</i>. Digital Contraptions Imaginarium is here to help.</p>
-                <br /><br />
                 <img id="signature" src="https://dl.dropboxusercontent.com/u/13837050/the-gift-of-data-2/signature.png">
+                <br />
                 <table cellpadding="0">
                     <tbody>
                         <tr>
