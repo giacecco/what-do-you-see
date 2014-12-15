@@ -1,5 +1,5 @@
 #!/bin/bash
 
 ( uuencode -m source-data/README.md README.md ; uuencode -m source-data/households_by_no_of_deprivation_dimensions.csv households_by_no_of_deprivation_dimensions.csv ; uuencode -m source-data/households_found_to_be_eligble_for_assistance_unintentionally_homeless_and_in_priority_need.csv households_found_to_be_eligble_for_assistance_unintentionally_homeless_and_in_priority_need.csv ; uuencode -m source-data/female_genital_mutilation_statistics.csv female_genital_mutilation_statistics.csv ) > source-data/uuencoded-source-data.asc
-java -Xms4096M -Xmx4096M -jar openstego-0.6.1/lib/openstego.jar embed -a RandomLSB -mf source-data/uuencoded-source-data.asc -cf Decoration_du_sapin_de_Noel_landscape.jpg -sf Decoration_du_sapin_de_Noel_landscape_wdys.png
-java -Xms4096M -Xmx4096M -jar openstego-0.6.1/lib/openstego.jar embed -a RandomLSB -mf source-data/uuencoded-source-data.asc -cf Decoration_du_sapin_de_Noel_portrait.jpg -sf Decoration_du_sapin_de_Noel_portrait_wdys.png
+java -Xms4096M -Xmx4096M -jar openstego-0.6.1/lib/openstego.jar embed -a RandomLSB -mf source-data/uuencoded-source-data.asc -cf Decoration_du_sapin_de_Noel_landscape.jpg -sf Decoration_du_sapin_de_Noel_landscape_wcys.png
+java -Xms4096M -Xmx4096M -jar openstego-0.6.1/lib/openstego.jar embed -a RandomLSB -mf source-data/uuencoded-source-data.asc -cf Decoration_du_sapin_de_Noel_portrait.jpg -sf Decoration_du_sapin_de_Noel_portrait_wcys.png
