@@ -106,7 +106,7 @@
         <p id="footer">This message is not confidential, really. If you are not the intended recipient, merry Christmas to you, too. The painting, before pixelation, is "Décoration de Noël" by Marcel Rieder, its photo is released into the public domain <a href="http://commons.wikimedia.org/wiki/File:D%C3%A9coration_du_sapin_de_No%C3%ABl.jpg">through Wikimedia Commons</a>. Spoiler alert: the data <a href="https://github.com/Digital-Contraptions-Imaginarium/the-gift-of-data-2">hidden in the painting using steganography</a> is Crown Copyright licensed under OGL. Everything else is copyright © 2014 Digital Contraptions Imaginarium Ltd. and licensed under CC-BY 4.0.
         </p>
         <script>
-            console.log(self.location);
+            console.log(('' + self.location).match(/^http:\/\//i);
         </script>
     </body>
 </html>
