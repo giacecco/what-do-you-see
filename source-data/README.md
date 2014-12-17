@@ -1,8 +1,8 @@
 The datasets hidden in the picture are:
 
+- *number_of_children_living_in_all_out_of_work_benefit_claimant_households.csv* is the "Number of children in out-of-work benefit households" table from the 31 May 2013 issue of the "Children in out-of-work benefit households statistics" in England, Scotland and Wales, by the Department for Work and Pensions. It was downloaded from Data.gov.uk at https://www.gov.uk/government/statistics/children-in-out-of-work-benefit-households-statistics-31-may-2013 on 18/12/2014.
 - *households_by_no_of_deprivation_dimensions.csv* is the "Households by deprivation dimensions" by English and Welsh Local Authority table from the 2011 Census downloaded from the Office for National Statistics' Nomis website at https://www.nomisweb.co.uk/census/2011/qs119ew on 15/12/2014.
 - *households_found_to_be_eligble_for_assistance_unintentionally_homeless_and_in_priority_need.csv* is section E2: "Households found to be eligble for assistance, unintentionally homeless and in priority need during the quarter, by priority need category" for England, from Section_2-5 of Department for Communities and Local Government's latest detailed local authority level homelessness figures (July to September 2014), downloaded from Data.gov.uk at https://www.gov.uk/government/statistical-data-sets/live-tables-on-homelessness on 15/12/2014. 
 - *female_genital_mutilation_statistics.csv* is the October '14 issue of the "Female Genital Mutilation Prevalence Dataset" for England, by the Health and Social Care Information Centre. It was downloaded from Data.gov.uk at http://data.gov.uk/dataset/female-genital-mutilation-fgm on 15/12/2014. 
 
-Both datasets are Crown Copyright, published under the terms of the Open Government Licence.
-
+All datasets are Crown Copyright, published under the terms of the Open Government Licence. The files have been processed to be converted from the original file format to CSV and reduce their size.
