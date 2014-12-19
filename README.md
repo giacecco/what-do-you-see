@@ -28,4 +28,6 @@ The picture "Young woman decorates the Christmas tree" by Marcel Rieder is avail
 
 The OpenStego Java libraries re-distributed in this repository are licensed under [GNU GPL v2.0](openstego-0.6.1/LICENSE). 
 
+All datasets are Crown Copyright, published under the terms of the [Open Government Licence v3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
 Everything else is (c) Digital Contraptions Imaginarium. Code is open source under the MIT license. See the [LICENSE.md](LICENSE.md) file for full details. Everything else is [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
