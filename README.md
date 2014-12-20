@@ -5,7 +5,7 @@ what-do-you-see
 
 ![](http://digital-contraptions-imaginarium.github.io/what-do-you-see/Decoration_du_sapin_de_Noel_landscape_wdys.png)
 
-Yes, there *is* data hidden in the painting by Marcel Rieder I used for Digital Contraptions Imaginarium's 2014 Christmas card at [http://digital-contraptions-imaginarium.github.io/what-do-you-see/](http://digital-contraptions-imaginarium.github.io/what-do-you-see/) and in email. I've concealed it using a technique called *steganography*: "the art or practice of concealing a message, image, or file within another message, image, or file" (see the [steganography Wikipedia page](http://en.wikipedia.org/wiki/Steganography)).
+Yes, there *is* data hidden in the painting by Marcel Rieder I used for Digital Contraptions Imaginarium's 2014 digital Christmas card. I've concealed it using a technique called *steganography*: "the art or practice of concealing a message, image, or file within another message, image, or file" (see the [steganography Wikipedia page](http://en.wikipedia.org/wiki/Steganography)).
 
 The images are produced using [OpenStego](http://www.openstego.info/)'s implementation of the 'random LSB' algorithm. Random LSB hides data by altering the smooth characteristics between adjoining pixels of the source image.
 
