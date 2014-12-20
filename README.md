@@ -1,7 +1,9 @@
 what-do-you-see
 ===============
 
-... so you are **not** happy of what you see! Well done, and welcome to where the secret is unveiled. This is how the digital Christmas card looked like:
+... so you are **not** happy of what you see! Well done, and welcome to where the secret is unveiled. 
+
+This is how Digital Contraptions Imaginarium's 2014 digital Christmas card looked like:
 
 ![](email_screenshot.png)
 
@@ -11,7 +13,7 @@ what-do-you-see
 
 (there's a [portrait version, too](http://digital-contraptions-imaginarium.github.io/what-do-you-see/Decoration_du_sapin_de_Noel_portrait_wdys.png) I used for displaying on smartphones, if you prefer)
 
-Yes, there *is* data hidden in the painting by Marcel Rieder I used for Digital Contraptions Imaginarium's 2014 digital Christmas card. I've concealed it using a technique called *steganography*: "the art or practice of concealing a message, image, or file within another message, image, or file" (see the [steganography Wikipedia page](http://en.wikipedia.org/wiki/Steganography)).
+Yes, there *is* data hidden in the painting. I've concealed it using a technique called *steganography*: "the art or practice of concealing a message, image, or file within another message, image, or file" (see the [steganography Wikipedia page](http://en.wikipedia.org/wiki/Steganography)).
 
 The images are produced using [OpenStego](http://www.openstego.info/)'s implementation of the 'random LSB' algorithm. Random LSB hides data by altering the smooth characteristics between adjoining pixels of the source image.
 
