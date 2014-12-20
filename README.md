@@ -1,9 +1,15 @@
 what-do-you-see
 ===============
 
-... so you are **not** happy of what you see! Well done, and welcome to where the secret is unveiled.
+... so you are **not** happy of what you see! Well done, and welcome to where the secret is unveiled. This is how the digital Christmas card looked like:
+
+![](email_screenshot.png)
+
+... and this is the actual image at the top: the one you should start from if you wanted to solve the riddle for yourself:
 
 ![](http://digital-contraptions-imaginarium.github.io/what-do-you-see/Decoration_du_sapin_de_Noel_landscape_wdys.png)
+
+(there's a [portrait version, too](http://digital-contraptions-imaginarium.github.io/what-do-you-see/Decoration_du_sapin_de_Noel_portrait_wdys.png) I used for displaying on smartphones, if you prefer)
 
 Yes, there *is* data hidden in the painting by Marcel Rieder I used for Digital Contraptions Imaginarium's 2014 digital Christmas card. I've concealed it using a technique called *steganography*: "the art or practice of concealing a message, image, or file within another message, image, or file" (see the [steganography Wikipedia page](http://en.wikipedia.org/wiki/Steganography)).
 
